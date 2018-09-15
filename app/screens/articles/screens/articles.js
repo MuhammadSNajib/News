@@ -74,7 +74,8 @@ class Articles extends Component {
                   <View style={{ width: '30%' }} >
                     <Image source={{ uri: item.urlToImage }} style={styles.imgCard} />
                   </View>
-                  <View style={{ width: '70%' }}>
+                  <View style={{ width: '5%' }} />
+                  <View style={{ width: '65%' }}>
                     <Text style={styles.textTitleListItem}>{item.title}</Text>
                     <Text style={styles.textSubTitleListItem}>{item.description.substr(0, 70)}</Text>
                     <Text style={styles.textInfoListItem}>{'Source : '}<Text style={styles.textInfoWeight}>{item.source.name}</Text></Text>
